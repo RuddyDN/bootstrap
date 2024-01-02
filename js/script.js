@@ -3,4 +3,4 @@ const nav = document.querySelector('#nav');
 
 menu.addEventListener('click', () => {
     nav.classList.toggle('d-sm-none');
-})
+})  
