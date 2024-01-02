@@ -1,0 +1,17 @@
+/* ====================
+ * BACKGROUND *
+====================== */
+
+@each $name, $bg in $colores{
+    .bg-#{$name}{
+        background-color: $bg;
+    }
+
+}
+
+@each $name, $bg in $grays{
+    .bg-gray-#{$name}{
+        background-color: $bg;
+    }
+
+}

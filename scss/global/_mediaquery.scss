@@ -1,0 +1,23 @@
+// MEDIA QUERY
+
+$desktops: "(max-width: 1400px)";
+$tablets: "(max-width: 720px)";
+$phones: "(max-width: 490px)";
+
+@mixin desktops(){
+    @media screen and #{$desktops} {
+        @content;
+    }
+}
+
+@mixin tablets(){
+    @media screen and #{$tablets} {
+        @content;
+    }
+}
+
+@mixin phones(){
+    @media screen and #{$phones} {
+        @content;
+    }
+}
